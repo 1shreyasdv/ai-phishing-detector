@@ -7,7 +7,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = pickle.load(open("real_time_model.pkl", "rb"))
+model = pickle.load(open("phishing_model.pkl", "rb"))
+
 
 history = []
 
